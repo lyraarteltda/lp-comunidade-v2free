@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 const WHATSAPP_LINK =
-  "https://wa.me/5511995631610?text=Quero%20entrar%20na%20Comunidade%20Aberta%20dos%20Maestros%20da%20IA!";
+  "https://wa.me/5511995631610?text=MAESTROS%20FREE";
 
 const benefits = [
   {
