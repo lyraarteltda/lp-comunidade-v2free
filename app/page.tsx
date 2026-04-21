@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 
 const WHATSAPP_LINK =
-  "https://wa.me/5511995631610?text=MAESTROS%20FREE";
+  "https://wa.me/5511995631610?text=Ol%C3%A1!%20Gostaria%20de%20entrar%20na%20Comunidade%20Aberta%20dos%20Maestros%20da%20IA!";
 
 const benefits = [
   {
@@ -73,7 +73,7 @@ function WhatsAppCTA({ className = "" }: { className?: string }) {
       className={`group inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-lg px-8 py-4 rounded-2xl transition-all duration-200 hover:scale-[1.02] hover:shadow-[0_0_40px_rgba(37,211,102,0.3)] ${className}`}
     >
       <MessageCircle className="w-6 h-6" />
-      <span>Entrar pelo WhatsApp</span>
+      <span>Olá! Gostaria de entrar na Comunidade Aberta dos Maestros da IA!</span>
       <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
     </a>
   );
