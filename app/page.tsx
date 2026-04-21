@@ -54,13 +54,13 @@ const steps = [
   },
   {
     n: "2",
-    title: "Responda algumas perguntas rápidas",
-    desc: "Nome e email — leva 30 segundos.",
+    title: "Confirme seu nome",
+    desc: "Uma mensagem rápida — leva 10 segundos.",
   },
   {
     n: "3",
-    title: "Receba seu acesso à comunidade",
-    desc: "Link + senha direto no seu WhatsApp. Pronto.",
+    title: "Receba o link da comunidade",
+    desc: "Acesso direto no seu WhatsApp. Pronto.",
   },
 ];
 
@@ -267,7 +267,7 @@ export default function Home() {
               },
               {
                 q: "Preciso preencher algum formulário?",
-                a: "Não. Basta clicar no botão do WhatsApp, responder nome e email, e pronto — você já recebe seu acesso.",
+                a: "Não. Basta clicar no botão do WhatsApp, confirmar seu nome, e pronto — você já recebe o link de acesso.",
               },
               {
                 q: "Que tipo de conteúdo tem na comunidade?",
@@ -279,7 +279,7 @@ export default function Home() {
               },
               {
                 q: "Como funciona o acesso?",
-                a: "Depois de enviar seu nome e email pelo WhatsApp, você recebe automaticamente o link e senha para acessar a plataforma da comunidade.",
+                a: "Depois de confirmar seu nome pelo WhatsApp, você recebe automaticamente o link para acessar a comunidade.",
               },
             ].map((faq) => (
               <details
