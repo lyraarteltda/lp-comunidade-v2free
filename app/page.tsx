@@ -35,6 +35,10 @@ export default function Home() {
             <span>Entrar Agora</span>
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
           </a>
+          <p className="text-text-muted text-[11px] mt-4 max-w-md mx-auto">
+            Ao clicar no botão, você concorda em receber mensagens da Maestros da IA pelo WhatsApp e e-mail, e declara que leu e aceita nossa{" "}
+            <a href="https://politica.maestrosdaia.com/" className="underline hover:text-text-secondary transition-colors">Política de Privacidade</a>.
+          </p>
         </div>
       </section>
     </main>
