@@ -1,7 +1,7 @@
 import { MessageCircle, ArrowRight } from "lucide-react";
 
 const WHATSAPP_LINK =
-  "https://wa.me/5511995631610?text=Ol%C3%A1!%20Gostaria%20de%20entrar%20na%20Comunidade%20Aberta%20dos%20Maestros%20da%20IA!";
+  "https://wa.me/16562695233?text=Ol%C3%A1!%20Gostaria%20de%20entrar%20na%20Comunidade%20Aberta%20dos%20Maestros%20da%20IA!";
 
 export default function Home() {
   return (
