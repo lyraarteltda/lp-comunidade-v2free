@@ -8,6 +8,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://v2free.maestrosdaia.com"),
+  alternates: { canonical: "/" },
   title: "Comunidade Aberta Maestros da IA — Grátis via WhatsApp",
   description:
     "Entre na maior comunidade brasileira de IA para negócios. Lives semanais, sistemas prontos, suporte direto. Totalmente grátis. Acesse agora pelo WhatsApp.",
